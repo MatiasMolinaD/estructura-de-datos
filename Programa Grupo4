@@ -1,0 +1,8 @@
+a=str(input("Ingrese una letra: " ))
+b=str(input("Ingrese otra letra: "))
+if(a==b):
+    print("las letras son iguales")
+elif(a!=b):
+    print("las letras no son iguales")
+
+# MatiasMolina
