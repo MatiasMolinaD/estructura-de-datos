@@ -1,0 +1,14 @@
+for i in range(7):
+    print("Repeticion numero: ",i)
+    
+# MatiasMolina
+
+
+Otro programa:
+numero=0
+
+while numero < 10:
+    print(f"El numero es: {numero}")
+    numero = numero+1
+    
+# MatiasMolina
