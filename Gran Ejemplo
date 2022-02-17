@@ -1,0 +1,19 @@
+def comprobarnumero(a,b):
+    a=a.isdigit()
+    b=b.isdigit()
+    if a==True and b==True:
+        return 1
+    else:
+        return 0
+cont=0
+while cont==0:
+    print("Para calcular los intereses de un prestamo en un mes")
+    prestamo=input("Ingrese el valor del prestamo: ")
+    interes=input("Ingrese el porcentaje del interes: ")
+    numeros=comprobarnumero(prestamo,interes)
+    if numeros==1:
+        interestotal=(int(prestamo)*(float(interes)/100)
+        print("El valor del interes es: ",interestotal)
+        cont=1
+
+# MatiasMolina    
