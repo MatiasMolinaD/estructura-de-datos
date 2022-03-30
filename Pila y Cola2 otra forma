@@ -1,0 +1,17 @@
+#Otra forma de Pila a Cola
+Pila=[]
+Cola=[]
+
+Pila.append("Lunes")
+Pila.append("Martes")
+Pila.append("Miercoles")
+Pila.append("Jueves")
+Pila.append("Viernes")
+Pila.append("Sabado")
+Pila.append("Domingo")
+
+for i in range(7):
+    x=Pila.pop()
+    Cola.append(x)
+
+print(Cola)
