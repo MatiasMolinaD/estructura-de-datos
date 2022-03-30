@@ -1,0 +1,29 @@
+#Ejemplo de Pila y Cola - LIFO, FIFO
+Pila=[]
+Cola=[]
+#Incluir elementos - push - apilar
+Pila.append("Lunes")
+Pila.append("Martes")
+Pila.append("Miercoles")
+Pila.append("Jueves")
+Pila.append("Viernes")
+Pila.append("Sabado")
+Pila.append("Domingo")
+print(Pila)
+#Sacar elementos - pop - desapilar
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+
+print(Cola)
