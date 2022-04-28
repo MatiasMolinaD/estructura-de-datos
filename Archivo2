@@ -1,0 +1,14 @@
+import os 
+
+print ("\nCrear un archivo")
+print ("================")
+
+NOMBRE_ARCHIVO = 'lugar.txt' #nombre de la clase
+
+lugar = open(NOMBRE_ARCHIVO, 'w')# abre el archivo datos.txt
+lugar.write("Samaipata\t119 km al suroeste de la ciudad de Santa Cruz de la Sierra\t8 ºC - 18 ºC\tCastellano(español)\tSamaipateño -a\n")
+lugar.write("Uyuni\tProvincia Antonio Quijarro en el depto. de Potosi\t-3 ºC - 21 ºC\tCastellano(español)\t Uyunense\n")
+lugar.write("San Jose\tProvincia de Santa Cruz de la Sierra\t18 ºC - 30 ºC\tCastellano(español)\t Josesano -a\n")
+lugar.write("Sucre\tSur de Bolivia \t 8 ºC - 22 ºC\t Castellano(español)\t Sucrense\n")
+lugar.write("La Paz\tNoroeste de Bolivia\t4 ºC - 18 ºC\tCastellano(español)\tPaceño -a\n")
+lugar.close()
